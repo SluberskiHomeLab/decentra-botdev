@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    # Override command to run a different bot:
+    # command: ["python", "-m", "examples.moderation_bot"]
