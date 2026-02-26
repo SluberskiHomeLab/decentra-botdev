@@ -120,4 +120,4 @@ The SDK automatically handles rate limiting with backoff.
 
 ## License
 
-MIT — See the main Decentra repository for full license details.
+AGPL 2.0
